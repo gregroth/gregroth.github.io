@@ -221,7 +221,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="author">
         
 
-        Jessica Zuin, <em>Gregory Roth</em>, Yinxiu Zhan, Julie Cramard, Josef Redolfi, Ewa Piskadlo, Pia Mach, Mariya Kryzhanovska, Gergely Tihanyi, Hubertus Kohler, Mathias Eder, Christ Leemans, Bas Steensel, Peter Meister, Sebastien Smallwood, and Luca Giorgetti</div>
+        Jessica Zuin, <em>Gregory Roth</em>, Yinxiu Zhan, Julie Cramard, and
+          <span class="more-authors" title="click to view 12 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '12 more authors' ? 'Josef Redolfi, Ewa Piskadlo, Pia Mach, Mariya Kryzhanovska, Gergely Tihanyi, Hubertus Kohler, Mathias Eder, Christ Leemans, Bas Steensel, Peter Meister, Sebastien Smallwood, Luca Giorgetti' : '12 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">12 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -264,7 +277,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="author">
         
 
-        Pratik Dave, <em>Gregory Roth</em>, Esther Griesbach, Daniel Mateju, Tobias Hochstoeger, and Jeffrey A. Chao</div>
+        Pratik Dave, <em>Gregory Roth</em>, Esther Griesbach, Daniel Mateju, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Tobias Hochstoeger, Jeffrey A. Chao' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
