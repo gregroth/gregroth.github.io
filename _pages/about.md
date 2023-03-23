@@ -2,17 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.fmi.ch/'>Affiliations</a>. Friedrich Miescher Institute for Biomedical Research, Basel.
+subtitle: <a href='https://www.fmi.ch/'>Staff scientist</a>. Friedrich Miescher Institute for Biomedical Research, Basel.
 
 profile:
   align: right
   image: greg-short.jpg
   image_circular: false # crops the image to make it circular
   address: >
-      FMI
-      Maulbeerstrasse 66
-      4058 Basel
-      Switzerland
+      FMI<br/><br/>
+      Maulbeerstrasse 66<br/><br/>
+      4058 Basel, Switzerland
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
