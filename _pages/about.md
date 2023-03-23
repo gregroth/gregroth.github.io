@@ -9,8 +9,8 @@ profile:
   image: greg-short.jpg
   image_circular: false # crops the image to make it circular
   address: >
-      FMI<br/><br/>
-      Maulbeerstrasse 66<br/><br/>
+      FMI<br/>
+      Maulbeerstrasse 66<br/>
       4058 Basel, Switzerland
 
 news: false  # includes a list of news items

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selection of projects.
+description: Selection of interdisciplinary projects in collaboration with molecular biologists and ecologists.
 nav: true
 nav_order: 2
 display_categories: [Molecular Biology, Ecology and Evolution]
