@@ -4,7 +4,7 @@ title: Transcription
 description: modeling enhancer-promoter communication
 img: assets/img/figures-epmodel.png
 importance: 1
-category: work
+category: Molecular Biology
 ---
 
 A combination of genomic engineering, quantitative measurements and mathematical modelling to address the long-standing question of how changes in enhancer-promoter genomic distance and contact frequency modulates transcription.
