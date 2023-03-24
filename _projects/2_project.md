@@ -8,7 +8,7 @@ category: Molecular Biology
 ---
 In the cell, messenger RNAs — or mRNAs — are translated into proteins and eventually degraded, but the relationship between translation and mRNA decay remains cloudy. 
 
-In a recent collaboration with the Chao lab at FMI, we leverage stochastic models to discriminate between different mechanisms for the coupling of translation and mRNA degradation. The result suggests that degradation rate of mRNA increases each time a molecules is translated into protein.
+In a recent collaboration with the [Chao Lab](https://www.fmi.ch/research-groups/groupleader.html?group=132#research) at FMI, we leverage stochastic models to discriminate between different mechanisms for the coupling of translation and mRNA degradation. The result suggests that degradation rate of mRNA increases each time a molecules is translated into protein.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,7 +22,7 @@ In a recent collaboration with the Chao lab at FMI, we leverage stochastic model
 This model predicts that the ribosome initiation frequency of an mRNA characterizes its degradation.
 
  <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col">
         {% include figure.html path="assets/img/mrnaDegradation_2.png" title="degradation curves" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
