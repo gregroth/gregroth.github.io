@@ -16,5 +16,16 @@ In a recent collaboration with the Chao lab at FMI, we leverage stochastic model
     </div>
 </div>
 <div class="caption">
-    mRNA degradation depends on the flux of ribosomes.
+    Modeling the life of an mRNA molecule with a degradation depending on ribosome flux.
+</div>
+
+This model predicts that the ribosome initiation frequency of an mRNA characterizes its degradation.
+
+ <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mrnaDegradation_2.png" title="degradation curves" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The population of mRNA with the largest ribosome initiation frequency degrades the fastest.
 </div>
