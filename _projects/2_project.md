@@ -2,7 +2,7 @@
 layout: page
 title: How does translation boost mRNA degradation? 
 description: modeling the flux of ribosomes on a mRNA and its effect on degradation
-img: assets/img/figure_rnadeg.png
+img: assets/img/rnadeg_intro.png
 importance: 2
 category: Molecular Biology
 ---
