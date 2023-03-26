@@ -24,9 +24,7 @@ In a recent collaboration with the [Giorgetti Lab](https://giorgettilab.org/) at
 This model predicts that enhancer-promoter contact probabilities are translated non linearly into transcriptional levels, suggesting a potential mechanism for functional insulation of enhancers.
 
  <div class="row">
-    <div class="col">
         {% include figure.html path="assets/img/epcom_2.png" title="transcriptional levels" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
     Model prediction of transcriptional levels function of enhancer-promoter contact probabilities. The sigmoidality of the curve implies a low sensitivity to changes in contact probabilities, at high contact probabilitis but a hyper sensitivity at low contact probabilities.
