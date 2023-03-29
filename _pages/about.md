@@ -7,7 +7,7 @@ subtitle: <a href='https://www.fmi.ch/'>Staff scientist</a>. Friedrich Miescher 
 profile:
   align: right
   image: greg-short.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
       FMI<br/>
       Maulbeerstrasse 66<br/>
