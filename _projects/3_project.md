@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Synchronization 
-description: modeling how cell synchronize in the presomitic mesoderm
+title: How do cells synchronize their gene expression?   
+description: modeling the mouse presomitic mesoderm cell communication
 img: assets/img/figure_psm.png
 # redirect: https://unsplash.com
 importance: 3
